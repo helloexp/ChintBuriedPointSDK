@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC302E32140CB80007F4B30 /* ChintBuriedPointSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC302E22140CB80007F4B30 /* ChintBuriedPointSDK.m */; };
+		5BC302E42140CB80007F4B30 /* ChintBuriedPointSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BC302E12140CB80007F4B30 /* ChintBuriedPointSDK.h */; };
+		5BC3031E21478BBF007F4B30 /* ChintPhoneType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3031D21478BBF007F4B30 /* ChintPhoneType.m */; };
+		5BC303242147A824007F4B30 /* ChintReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC303232147A824007F4B30 /* ChintReachability.m */; };
+		5BC3032E2147AA00007F4B30 /* ChintSAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3032D2147AA00007F4B30 /* ChintSAMKeychain.m */; };
+		5BC303312147AB12007F4B30 /* ChintSAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC303302147AB12007F4B30 /* ChintSAMKeychainQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BC302DC2140CB80007F4B30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5BC302E42140CB80007F4B30 /* ChintBuriedPointSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5BC302DE2140CB80007F4B30 /* libChintBuriedPointSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChintBuriedPointSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC302E12140CB80007F4B30 /* ChintBuriedPointSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChintBuriedPointSDK.h; sourceTree = "<group>"; };
+		5BC302E22140CB80007F4B30 /* ChintBuriedPointSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChintBuriedPointSDK.m; sourceTree = "<group>"; };
+		5BC3031C21478BBF007F4B30 /* ChintPhoneType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChintPhoneType.h; sourceTree = "<group>"; };
+		5BC3031D21478BBF007F4B30 /* ChintPhoneType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChintPhoneType.m; sourceTree = "<group>"; };
+		5BC303222147A824007F4B30 /* ChintReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChintReachability.h; sourceTree = "<group>"; };
+		5BC303232147A824007F4B30 /* ChintReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChintReachability.m; sourceTree = "<group>"; };
+		5BC3032C2147AA00007F4B30 /* ChintSAMKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChintSAMKeychain.h; sourceTree = "<group>"; };
+		5BC3032D2147AA00007F4B30 /* ChintSAMKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChintSAMKeychain.m; sourceTree = "<group>"; };
+		5BC3032F2147AB12007F4B30 /* ChintSAMKeychainQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChintSAMKeychainQuery.h; sourceTree = "<group>"; };
+		5BC303302147AB12007F4B30 /* ChintSAMKeychainQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChintSAMKeychainQuery.m; sourceTree = "<group>"; };
+		5BC303322147BA31007F4B30 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC302DB2140CB80007F4B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC302D52140CB80007F4B30 = {
+			isa = PBXGroup;
+			children = (
+				5BC302E02140CB80007F4B30 /* ChintBuriedPointSDK */,
+				5BC302DF2140CB80007F4B30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC302DF2140CB80007F4B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC302DE2140CB80007F4B30 /* libChintBuriedPointSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC302E02140CB80007F4B30 /* ChintBuriedPointSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5BC303322147BA31007F4B30 /* README.md */,
+				5BC303252147A9EB007F4B30 /* ChintSAMKeyChain */,
+				5BC302E12140CB80007F4B30 /* ChintBuriedPointSDK.h */,
+				5BC302E22140CB80007F4B30 /* ChintBuriedPointSDK.m */,
+				5BC3031C21478BBF007F4B30 /* ChintPhoneType.h */,
+				5BC3031D21478BBF007F4B30 /* ChintPhoneType.m */,
+				5BC303222147A824007F4B30 /* ChintReachability.h */,
+				5BC303232147A824007F4B30 /* ChintReachability.m */,
+			);
+			path = ChintBuriedPointSDK;
+			sourceTree = "<group>";
+		};
+		5BC303252147A9EB007F4B30 /* ChintSAMKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				5BC3032C2147AA00007F4B30 /* ChintSAMKeychain.h */,
+				5BC3032D2147AA00007F4B30 /* ChintSAMKeychain.m */,
+				5BC3032F2147AB12007F4B30 /* ChintSAMKeychainQuery.h */,
+				5BC303302147AB12007F4B30 /* ChintSAMKeychainQuery.m */,
+			);
+			path = ChintSAMKeyChain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC302DD2140CB80007F4B30 /* ChintBuriedPointSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC302E72140CB80007F4B30 /* Build configuration list for PBXNativeTarget "ChintBuriedPointSDK" */;
+			buildPhases = (
+				5BC302DA2140CB80007F4B30 /* Sources */,
+				5BC302DB2140CB80007F4B30 /* Frameworks */,
+				5BC302DC2140CB80007F4B30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChintBuriedPointSDK;
+			productName = ChintBuriedPointSDK;
+			productReference = 5BC302DE2140CB80007F4B30 /* libChintBuriedPointSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC302D62140CB80007F4B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.chint;
+				TargetAttributes = {
+					5BC302DD2140CB80007F4B30 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BC302D92140CB80007F4B30 /* Build configuration list for PBXProject "ChintBuriedPointSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BC302D52140CB80007F4B30;
+			productRefGroup = 5BC302DF2140CB80007F4B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC302DD2140CB80007F4B30 /* ChintBuriedPointSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC302DA2140CB80007F4B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC302E32140CB80007F4B30 /* ChintBuriedPointSDK.m in Sources */,
+				5BC3032E2147AA00007F4B30 /* ChintSAMKeychain.m in Sources */,
+				5BC3031E21478BBF007F4B30 /* ChintPhoneType.m in Sources */,
+				5BC303312147AB12007F4B30 /* ChintSAMKeychainQuery.m in Sources */,
+				5BC303242147A824007F4B30 /* ChintReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BC302E52140CB80007F4B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BC302E62140CB80007F4B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC302E82140CB80007F4B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66J7DQMQJV;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC302E92140CB80007F4B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66J7DQMQJV;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC302D92140CB80007F4B30 /* Build configuration list for PBXProject "ChintBuriedPointSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC302E52140CB80007F4B30 /* Debug */,
+				5BC302E62140CB80007F4B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC302E72140CB80007F4B30 /* Build configuration list for PBXNativeTarget "ChintBuriedPointSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC302E82140CB80007F4B30 /* Debug */,
+				5BC302E92140CB80007F4B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC302D62140CB80007F4B30 /* Project object */;
+}
